@@ -2,13 +2,14 @@ img {
   border-radius: 50%
 }
 
-ul li{
-  color: purple
-}
-
 h1 {
   background-color: #5E2971;
-  color: #9B73A9;
-  margin-right: 50px;
-  padding: 20px;
+  margin-right: 200px;
+  padding: 10px;
+}
+
+.col-3 {
+  color: purple;
+  background: green;
+  margin: auto;
 }

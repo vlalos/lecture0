@@ -1,8 +1,12 @@
 
 .col-sm {
-  color: #5454C1;
-  background: #1717A4;
+  color: #131655;
+  background: #4285F4;
   margin: 20px;
   font-weight: bold;
+}
 
+#portrait{
+    width: 75%;
+    padding: 10px;
 }

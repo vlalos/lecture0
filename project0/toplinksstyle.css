@@ -16,6 +16,10 @@
   color: white;
 }
 
+.linkcolor{
+  color: purple;
+}
+
 .linkcolor:hover{
   color: white;
 }
@@ -23,11 +27,16 @@
 .col-md {
   color: white;
   font-size: 20px;
-  margin-right: 50px;
+  font-weight: bold;
+  margin-top: 0px;
 }
 
 h1{
   background-color: purple;
   padding: 10px;
   padding-top: 5px;
+}
+
+#headline {
+  color: white;
 }

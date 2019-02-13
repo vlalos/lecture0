@@ -1,0 +1,33 @@
+#fst:hover{
+  background-color: #EA4335;
+  color: white;
+}
+
+#snd:hover{
+  background-color: #4285F4;
+  color:white;
+}
+#thd:hover{
+  background-color: #FBBC05;
+  color: white;
+}
+#fth:hover{
+  background-color: #34A853;
+  color: white;
+}
+
+.linkcolor:hover{
+  color: white;
+}
+
+.col-md {
+  color: white;
+  font-size: 20px;
+  margin-right: 50px;
+}
+
+h1{
+  background-color: purple;
+  padding: 10px;
+  padding-top: 5px;
+}

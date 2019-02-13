@@ -1,15 +1,8 @@
-img {
-  border-radius: 50%
-}
 
-h1 {
-  background-color: #5E2971;
-  margin-right: 200px;
-  padding: 10px;
-}
+.col-sm {
+  color: #5454C1;
+  background: #1717A4;
+  margin: 20px;
+  font-weight: bold;
 
-.col-3 {
-  color: purple;
-  background: green;
-  margin: auto;
 }

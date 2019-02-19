@@ -20,6 +20,11 @@
   padding: 20px;
 }
 
+.col-sm:hover{
+  color: purple;
+  background-color: white;
+}
+
 #author {
   font-weight: bold;
   text-align: left;
@@ -58,4 +63,5 @@ th {
 td {
   border: 3px dotted white;
   padding: 10px;
+  font-weight: 400;
 }

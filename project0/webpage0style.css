@@ -43,3 +43,19 @@
     display: none;
   }
 }
+
+table {
+  border: 3px dotted white;
+  margin:auto;
+  margin-top: 10px;
+}
+
+th {
+  border: 3px dotted white;
+  padding: 10px;
+}
+
+td {
+  border: 3px dotted white;
+  padding: 10px;
+}

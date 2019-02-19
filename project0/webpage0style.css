@@ -37,3 +37,9 @@
   padding-left: 20px;
   text-align: left;
 }
+
+@media (max-width: 1000px){
+  #optional {
+    display: none;
+  }
+}

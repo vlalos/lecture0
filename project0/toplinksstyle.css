@@ -55,3 +55,8 @@ h1{
 .contactlink {
   color: white
 }
+
+.contactlink:hover{
+  color: white;
+  font-weight: bold;
+}

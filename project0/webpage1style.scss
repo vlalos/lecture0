@@ -1,5 +1,25 @@
-$fontheaders: bold;
+$fontheaders: bolder;
+$normalmargin: 10px;
 
 #facts {
   font-weight: $fontheaders;
+  margin: $normalmargin;
+}
+
+li {
+  font-weight: 400;
+}
+
+#myfoto {
+  width: 66%;
+  margin: $normalmargin;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col-lg:hover{
+  #myfoto{
+    border: 3px dotted purple;
+  }
 }

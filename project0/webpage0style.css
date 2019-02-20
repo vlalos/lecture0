@@ -5,6 +5,9 @@
     display: block;
     margin-bottom: 10px;
 }
+.col-lg:hover #portrait{
+  border: 3px dotted purple;
+}
 
 #citation {
   font-style: italic;

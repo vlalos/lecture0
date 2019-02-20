@@ -1,5 +1,22 @@
 #facts {
-  font-weight: bold;
+  font-weight: bolder;
+  margin: 10px;
+}
+
+li {
+  font-weight: 400;
+}
+
+#myfoto {
+  width: 66%;
+  margin: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col-lg:hover #myfoto {
+  border: 3px dotted purple;
 }
 
 /*# sourceMappingURL=webpage1style.css.map */

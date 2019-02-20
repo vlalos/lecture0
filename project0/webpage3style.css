@@ -1,17 +1,17 @@
-$usualpadding:15px;
-
 #visit {
-  padding: $usualpadding;
+  padding: 15px;
   width: 100%;
   display: block;
 }
 
 #map {
-  padding: $usualpadding;
+  padding: 15px;
   font-weight: bold;
   padding-bottom: 0px;
 }
 
-.col-lg:hover #visit{
+.col-lg:hover #visit {
   border: 3px dotted purple;
 }
+
+/*# sourceMappingURL=webpage3style.css.map */

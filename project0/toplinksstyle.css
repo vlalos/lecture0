@@ -1,18 +1,18 @@
 #fst:hover{
-  background-color: #EA4335;
+  background-color: #400B86;
   color: white;
 }
 
 #snd:hover{
-  background-color: #4285F4;
+  background-color: #008A44;
   color:white;
 }
 #thd:hover{
-  background-color: #FBBC05;
+  background-color: #9DBE00;
   color: white;
 }
 #fth:hover{
-  background-color: #34A853;
+  background-color: #C52F00;
   color: white;
 }
 
@@ -31,6 +31,10 @@
   font-weight: bold;
   margin-top: 0px;
   margin-right: 10px;
+}
+
+.col-md:hover a{
+  color: white;
 }
 
 h1{
@@ -73,4 +77,38 @@ h1{
 .contactlink:hover{
   color: white;
   font-weight: bold;
+}
+
+table {
+  border: 3px dotted white;
+  margin:auto;
+  margin-top: 10px;
+}
+
+th {
+  border: 3px dotted white;
+  padding: 10px;
+}
+
+td {
+  border: 3px dotted white;
+  padding: 10px;
+  font-weight: 400;
+}
+
+.col-lg:hover table {
+  border: 3px dotted purple;
+  margin:auto;
+  margin-top: 10px;
+}
+
+.col-lg:hover th {
+  border: 3px dotted purple;
+  padding: 10px;
+}
+
+.col-lg:hover td {
+  border: 3px dotted purple;
+  padding: 10px;
+  font-weight: 400;
 }

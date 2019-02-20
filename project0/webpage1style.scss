@@ -1,9 +1,9 @@
-$fontheaders: bolder;
-$normalmargin: 10px;
+$fontheaders: bold;
+$normalmargin: 15px;
 
-#factshead {
+.biohead {
   font-weight: $fontheaders;
-  margin: $normalmargin;
+  padding: $normalmargin;
 }
 
 #facts {
@@ -26,4 +26,8 @@ li {
   #myfoto{
     border: 3px dotted purple;
   }
+}
+
+#something{
+  padding: $normalmargin
 }

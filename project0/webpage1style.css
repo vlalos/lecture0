@@ -1,6 +1,6 @@
-#factshead {
-  font-weight: bolder;
-  margin: 10px;
+.biohead {
+  font-weight: bold;
+  padding: 15px;
 }
 
 #facts {
@@ -13,7 +13,7 @@ li {
 
 #myfoto {
   width: 66%;
-  margin: 10px;
+  margin: 15px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -21,6 +21,10 @@ li {
 
 .col-lg:hover #myfoto {
   border: 3px dotted purple;
+}
+
+#something {
+  padding: 15px;
 }
 
 /*# sourceMappingURL=webpage1style.css.map */

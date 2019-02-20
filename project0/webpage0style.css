@@ -55,3 +55,20 @@ td {
   padding: 10px;
   font-weight: 400;
 }
+
+.col-lg:hover table {
+  border: 3px dotted purple;
+  margin:auto;
+  margin-top: 10px;
+}
+
+.col-lg:hover th {
+  border: 3px dotted purple;
+  padding: 10px;
+}
+
+.col-lg:hover td {
+  border: 3px dotted purple;
+  padding: 10px;
+  font-weight: 400;
+}

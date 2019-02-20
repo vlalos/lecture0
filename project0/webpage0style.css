@@ -1,5 +1,5 @@
 
-.col-sm {
+.col-lg {
   color: white;
   background: purple;
   margin-right: 10px;
@@ -20,7 +20,7 @@
   padding: 20px;
 }
 
-.col-sm:hover{
+.col-lg:hover{
   color: purple;
   background-color: white;
 }

@@ -1,9 +1,13 @@
 $fontheaders: bolder;
 $normalmargin: 10px;
 
-#facts {
+#factshead {
   font-weight: $fontheaders;
   margin: $normalmargin;
+}
+
+#facts {
+  font-size: 18px;
 }
 
 li {

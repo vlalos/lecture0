@@ -1,6 +1,10 @@
-#facts {
+#factshead {
   font-weight: bolder;
   margin: 10px;
+}
+
+#facts {
+  font-size: 18px;
 }
 
 li {

@@ -51,11 +51,9 @@ h1{
 .col-xl {
   background-color: purple;
   color: white;
-  margin-right: 10px;
-  margin-top: 10px;
+  margin: 10px;
   padding-top: 10px;
   text-align: left;
-  margin-left: 10px;
 }
 
 .col-lg:hover{

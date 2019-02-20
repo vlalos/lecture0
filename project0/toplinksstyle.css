@@ -52,6 +52,20 @@ h1{
   text-align: left;
 }
 
+.col-lg:hover{
+  color: purple;
+  background-color: white;
+}
+
+
+.col-lg {
+  color: white;
+  background: purple;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
 .contactlink {
   color: white
 }

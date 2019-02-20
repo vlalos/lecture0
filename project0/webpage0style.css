@@ -1,13 +1,5 @@
-
-.col-lg {
-  color: white;
-  background: purple;
-  margin-right: 10px;
-  margin-top: 10px;
-  font-weight: bold;
-}
-
-#portrait{
+ /* NOTE: I started with only one stylesheet but then it turned out to be easier to put the majority of the stuff into one common for all pages  */
+ #portrait{
     width: 66%;
     margin: auto;
     display: block;
@@ -18,11 +10,6 @@
   font-style: italic;
   text-align: left;
   padding: 20px;
-}
-
-.col-lg:hover{
-  color: purple;
-  background-color: white;
 }
 
 #author {

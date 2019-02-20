@@ -6,7 +6,7 @@ $usualpadding:15px;
   display: block;
 }
 
-#map {
+%header {
   padding: $usualpadding;
   font-weight: bold;
   padding-bottom: 0px;
@@ -14,4 +14,29 @@ $usualpadding:15px;
 
 .col-lg:hover #visit{
   border: 3px dotted purple;
+}
+
+#map {
+  @extend %header;
+}
+
+#countries {
+  @extend %header;
+}
+
+li {
+  padding: $usualpadding;
+  margin-left: $usualpadding;
+}
+
+ul {
+  display: -ms-flexbox;           /* IE 10 */
+  display: -webkit-flex;          /* Safari 6.1+. iOS 7.1+ */
+  display: flex;
+  -webkit-flex-flow: wrap column; /* Safari 6.1+ */
+  flex-flow: wrap column;
+  max-height: 350px;
+  margin: $usualpadding;
+  font-size: 18px;
+  font-weight: 600;    /* Limit height to whatever you need */
 }

@@ -4,7 +4,7 @@
   display: block;
 }
 
-#map {
+#countries, #map {
   padding: 15px;
   font-weight: bold;
   padding-bottom: 0px;
@@ -12,6 +12,27 @@
 
 .col-lg:hover #visit {
   border: 3px dotted purple;
+}
+
+li {
+  padding: 15px;
+  margin-left: 15px;
+}
+
+ul {
+  display: -ms-flexbox;
+  /* IE 10 */
+  display: -webkit-flex;
+  /* Safari 6.1+. iOS 7.1+ */
+  display: flex;
+  -webkit-flex-flow: wrap column;
+  /* Safari 6.1+ */
+  flex-flow: wrap column;
+  max-height: 350px;
+  margin: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  /* Limit height to whatever you need */
 }
 
 /*# sourceMappingURL=webpage3style.css.map */

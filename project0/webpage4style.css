@@ -1,0 +1,38 @@
+.col-3, .col-12, .col-7, .col-4 {
+  color: white;
+  background: purple;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.col-3:hover, .col-12:hover, .col-7:hover, .col-4:hover {
+  color: purple;
+  background-color: white;
+}
+.col-3:hover .image, .col-12:hover .image, .col-7:hover .image, .col-4:hover .image {
+  border: 3px dotted purple;
+}
+.col-3:hover #prom, .col-12:hover #prom, .col-7:hover #prom, .col-4:hover #prom {
+  border: 3px dotted purple;
+}
+
+.place {
+  padding-left: 15px;
+}
+
+.image {
+  padding: 15px;
+  width: 100%;
+  display: block;
+}
+
+#prom {
+  padding: 15px;
+  width: 75%;
+  display: block;
+}
+
+/*# sourceMappingURL=webpage4style.css.map */

@@ -1,0 +1,70 @@
+
+%col {
+  color: white;
+  background: purple;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+%hover {
+  color: purple;
+  background-color: white;
+  .image {
+    border: 3px dotted purple;
+  }
+
+  #prom {
+    border: 3px dotted purple;
+  }
+}
+
+.place {
+  padding-left: 15px;
+}
+
+.image{
+  padding: 15px;
+  width: 100%;
+  display: block;
+}
+
+#prom {
+  padding: 15px;
+  width: 75%;
+  display: block;
+}
+
+.col-4 {
+  @extend %col;
+}
+
+.col-7 {
+  @extend %col;
+}
+
+.col-12 {
+  @extend %col;
+}
+
+.col-4:hover {
+  @extend %hover;
+}
+
+.col-7:hover {
+  @extend %hover;
+}
+
+.col-12:hover {
+  @extend %hover;
+}
+
+.col-3 {
+  @extend %col;
+}
+
+.col-3:hover {
+  @extend %hover;
+}

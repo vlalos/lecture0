@@ -9,3 +9,17 @@ li{
   font-size:18px;
   font-weight: 400;
 }
+
+#foto1{
+  display: block;
+  width: 100%;
+  margin: $usualpadding;
+  padding: $usualpadding;
+  text-align: center;
+}
+
+.col-lg:hover{
+  #foto1 {
+    border: 3px dotted purple;
+  }
+}
